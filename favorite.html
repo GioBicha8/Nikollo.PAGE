@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite photos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+     integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" 
+    crossorigin="anonymous">
+  </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+      .card{
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius:50%;
+        width: 50%;
+        margin: auto;
+      }
+    </style>
+    <style>
+      body  {
+        background-image: url("paper.gif");
+        background-color: #cccc;
+      }
+      </style>
+      </head>
+  </head>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+       <a class="navbar-brand p-0" href="/"><img src="./images/Nikollo.svg" alt="" width="90"></a>
+        <button class="navbar-toggler"
+         type="button"
+         data-bs-toggle="collapse" 
+         data-bs-target="#navbarNav"
+        aria-controls="navbarNav" 
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="favorite.html">Favorite Photos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5"> 
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col"> 
+          <div class="card">
+            <img src="https://picsum.photos/id/1015/300" class="card-img-top" alt="ნიკა"/>
+            <div class="card-body">
+              <h5 class="card-title">Nature photos</h5>
+              <p class="card-text">a wide range of photography taken outdoors and devoted to displaying natural elements such as landscapes, wildlife, plants, and close-ups of natural scenes and textures..</p>
+              <a  href="/Second.html" class="btn btn-primary">See photo</a>
+              
+             </div>
+          </div>
+        </div>
+        <div class="col"> 
+          <div class="card">
+            <img src="https://picsum.photos/id/1005/300" class="card-img-top" alt="ნიკა">
+            <div class="card-body">
+              <h5 class="card-title">Fashion Photography</h5>
+              <p class="card-text">photography which is devoted to displaying other fashion items. Fashion photography is most often conducted for advertisements or fashion magazines such as Vogue, Vanity Fair.</p>
+              <a href="/third.html" class="btn btn-primary">See photo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col"> 
+          <div class="card">
+            <img src="https://picsum.photos/id/1082/300" class="card-img-top" alt="ნიკა">
+            <div class="card-body">
+              <h5 class="card-title">Art photos</h5>
+              <p class="card-text">painting, the expression of ideas and emotions, with the creation of certain aesthetic qualities, in a two-dimensional visual language. The elements shapes.</p>
+              <a href="/Fourth.html" class="btn btn-primary">See photo</a>
+            </div>
+      </div>
+    </div>
+  </body>
+</html>
